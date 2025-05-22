@@ -21,8 +21,12 @@ PspChat és una aplicació de xat desenvolupada en JavaFX que permet als usuaris
 - SQLite JDBC 3.36.0.3
 - JUnit 5.10.2 (per tests)
 
-## Instal·lació
 
+## Instal·lació
+1. Clona el repositori:
+
+```bash
+git clone https://github.com/BelAissati/PspProjecteUF3.git
 
 
 2. Navega al directori del projecte:
