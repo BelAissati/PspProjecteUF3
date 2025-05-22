@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="bilal.elaissati.pspchat.controladors.LoginController">
+
+    <children>
+        <VBox alignment="CENTER" spacing="10.0"
+              AnchorPane.topAnchor="50.0"
+              AnchorPane.leftAnchor="50.0"
+              AnchorPane.rightAnchor="50.0">
+            <Label text="Iniciar Sessió" styleClass="titulo"/>
+            <TextField fx:id="campNom" promptText="Nom d'usuari"/>
+            <PasswordField fx:id="campContrasenya" promptText="Contrasenya"/>
+            <Button text="Entrar" onAction="#iniciarSessio"/>
+            <Label fx:id="missatgeError" styleClass="error"/>
+        </VBox>
+    </children>
+</AnchorPane>

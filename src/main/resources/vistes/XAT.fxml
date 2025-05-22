@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="bilal.elaissati.pspchat.controladors.XatController">
+
+    <top>
+        <Label text="Xat"
+               styleClass="titulo"
+               BorderPane.alignment="CENTER"/>
+    </top>
+
+    <center>
+        <ListView fx:id="llistaMissatges"
+                  styleClass="list-view"/>
+    </center>
+
+    <bottom>
+        <HBox spacing="10.0">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <TextField fx:id="campMissatge"
+                       HBox.hgrow="ALWAYS"
+                       promptText="Escriu un missatge..."
+                       styleClass="text-field"/>
+            <Button text="Enviar"
+                    onAction="#enviarMissatge"
+                    styleClass="button"/>
+        </HBox>
+    </bottom>
+</BorderPane>

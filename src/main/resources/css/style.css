@@ -1,0 +1,63 @@
+/* Estils globals */
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: #f4f7fa;
+}
+
+/* Títols */
+.titulo {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4a90e2;
+    -fx-padding: 0 0 20 0;
+}
+
+/* TextFields i PasswordFields */
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 8 12 8 12;
+    -fx-font-size: 14px;
+}
+
+/* Botons */
+.button {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 8 20 8 20;
+    -fx-cursor: hand;
+}
+
+/* Hover i pressió */
+.button:hover {
+    -fx-background-color: #005bb5;
+}
+.button:pressed {
+    -fx-background-color: derive(#005bb5, -20%);
+}
+
+/* Missatges d’error */
+.error {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 12px;
+    -fx-padding: 5 0 0 0;
+}
+
+/* ListView de xat */
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* TextArea / ListView item padding */
+.list-cell {
+    -fx-padding: 5 10 5 10;
+}
