@@ -49,20 +49,6 @@ mvn javafx:run
 
 ## Estructura del Projecte
 
-```
-PspChat/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── bilal/elaissati/pspchat/
-│   │   │       ├── controladors/
-│   │   │       ├── dades/
-│   │   │       └── Main.java
-│   │   └── resources/
-│   │       ├── css/
-│   │       └── vistes/
-└── pom.xml
-```
 
 ## Funcionalitats
 
